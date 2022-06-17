@@ -1,0 +1,145 @@
+
+.c{
+    height: 60vh;
+    position: relative;
+}
+.c-bg{
+    width: 20px;
+    height: 60vh;
+    background-color: green;
+    position: absolute;
+}
+.c-wrapper{
+    padding: 30px;
+    display: flex;
+}
+.c-left{
+    flex: 1;
+}
+.c-title{
+    font-size: 60px;
+    width: 80%;
+    padding-left: 10px;
+    font-family: 'cursive', 'Times New Roman', Times, serif;
+}
+.c-info{
+    flex-wrap: wrap;
+}
+
+.c-info-item{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+    font-weight: 500;
+    width: 70%;
+    padding-left: 40px;
+}
+.link{
+    text-decoration:none;
+    padding-left: 20px;
+    color: black;  
+}
+
+@media screen and (max-width:480px) {
+    .c{
+        height: 40vh;
+    }
+    .c-bg{
+        height: 40vh;
+    }
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        
+    }
+    .c-desc{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:375px) and ( max-height:520px) {
+    .c{
+        height: 50vh;
+    }
+    .c-bg{
+        height: 50vh;
+    }
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .c-left{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;  
+    }
+    .c-info{
+        font-size: 13px;
+    }
+    .c-title{
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        
+    }
+    .c-desc{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:425px) and ( max-height:520px) {
+    .c{
+        height: 50vh;
+    }
+    .c-bg{
+        height: 50vh;
+    }
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .c-left{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;  
+    }
+    .c-info{
+        font-size: 13px;
+    }
+    .c-title{
+        font-size: 26px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+        
+    }
+    .c-desc{
+        display: none;
+    }
+}
+
+
+
