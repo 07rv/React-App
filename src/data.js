@@ -1,7 +1,7 @@
 export const introData = {
     "name":"Rohit Verma",
     "languages":["C#, ", "Python, ", "C++"],
-    "technologies":["React,", "MySQL,", "Angular,"],
+    "technologies":["React,", "MySQL,", "Angular"],
     "scroller":[
         {
             "role": "Software Developer",
@@ -27,8 +27,8 @@ export const introData = {
 }
 
 export const aboutMe = {
-    "first": "A Gradated from Delhi Technologcal University with specailzation in Computer Enginering, Working in Policy Bazaar as Software Developer Intern.",
-    "second": "I am results oriented, constantly checking in with the goal to determine how close or how far away we are and what it will take to make it happen. I’m always looking for an opportunity to do better and achieve greatness. Interested in Learning new skill. Currently working on dot Net, React, Angular, Machine Learning",
+    "first": "A Graduated from Delhi Technological University with specialization in Computer Engineering, Working in Policy Bazaar as Software Developer Intern.",
+    "second": "I am results-oriented, constantly checking in with the goal to determine how close or how far away we are and what it will take to make it happen. I’m always looking for an opportunity to do better and achieve greatness. Interested in learning new skills. Currently working on dot Net, React, Angular, Machine Learning.",
 }
 
 export const products = [
