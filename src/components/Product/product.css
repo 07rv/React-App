@@ -29,19 +29,3 @@
     transform: scaleY(1.5);
 }
 
-@media screen and (max-width:480px) {
-    .p{
-        width: 40%;
-        height: 20vh;
-    }
-}
-
-@media screen and (max-width:425px) and (max-height:520px) {
-    .p{
-        width: 40%;
-        height: 20vh;
-    }
-    .p-browser{
-        height: 10px;
-    }
-}
