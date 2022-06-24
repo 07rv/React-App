@@ -14,11 +14,11 @@ const Contact = () => {
                 <h1 className="c-title">Contact Details</h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                        <Email style={{paddingRight:20}}/>
+                        <Email style={{paddingRight:20}} className="icon-size"/>
                         {contactDetails.emailId}
                     </div>
                     <div className="c-info-item">
-                        <GitHub/>
+                        <GitHub className="icon-size"/>
                         <a 
                             style={{color:theme.state.darkMode && "white"}}
                             className="link"
@@ -28,7 +28,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="c-info-item">
-                        <LinkedIn/>
+                        <LinkedIn className="icon-size"/>
                         <a 
                             style={{color:theme.state.darkMode && "white"}}
                             className="link"
@@ -38,7 +38,7 @@ const Contact = () => {
                         </a>
                     </div>
                     <div className="c-info-item">
-                        <CodeSharp/>
+                        <CodeSharp className="icon-size"/>
                         <a 
                             style={{color:theme.state.darkMode && "white"}}
                             className="link"
