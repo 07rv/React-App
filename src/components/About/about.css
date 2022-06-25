@@ -86,3 +86,34 @@
 }
 
 
+@media screen and (max-width:768px) {
+    .a-left{
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .a-card.bg{
+        top: 60px;
+        left: 90px;
+    }
+    .a-card{
+        height: 60%;
+    }
+
+    .a-right{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .a-sub{
+        font-size: 20px;
+        padding-right: 0px;
+    }
+}
+
+
+
