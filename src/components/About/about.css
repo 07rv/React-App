@@ -118,6 +118,9 @@
 
 
 @media screen and (max-width:425px) {
+    .a{
+        height: 60vh;
+    }
     .a-left{
         display: none;
     }
@@ -132,8 +135,37 @@
     .a-desc{
         font-size: 15px;
     }
-
 }
 
+
+
+@media screen and (max-width:375px) {
+    .a{
+        height: 60vh;
+    }
+    .a-left{
+        display: none;
+    }
+    .a-title{
+        font-size: 30px;
+    }
+
+    .a-sub{
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .a-desc{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .a{
+        height: 35vh;
+    }
+    .a-desc{
+        display: none;
+    }
+}
 
 

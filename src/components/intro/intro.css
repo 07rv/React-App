@@ -145,15 +145,9 @@
 
 
 @media screen and (max-width:425px) {
-    .i{
-        height: 70vh;
-    }
     .i-intro{
-        font-size: 15px;
+        font-size: 17px;
         padding-bottom: 10px;
-    }
-    .i-name{
-        font-size: 22px;
     }
     .i-title{
         height: 30px;
@@ -166,6 +160,32 @@
     }
     .animate-charcter{
         font-size: 17px;
+    }
+    .i{
+        height: 70vh;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    .i-name{
+        font-size: 25px;
+    }
+    .i-title{
+        height: 30px;
+        display: none;
+    }
+    .i-left{
+        flex: 1;
+    }
+    .i-right{
+        flex: 3;
+    }
+    .i-bg{
+        clip-path: circle(50% at 50% 50%);
+    }
+    .i-img{
+        width: 55%;
+        height: 100%;
+        padding-left: 33%;
     }
 }
 
@@ -194,5 +214,9 @@
         width: 55%;
         height: 100%;
         padding-left: 33%;
+    }
+    .i-desc-items{
+        font-size: 15px;
+        flex-wrap: wrap;
     }
 }
