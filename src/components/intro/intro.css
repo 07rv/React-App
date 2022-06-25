@@ -99,3 +99,19 @@
     background-position: 200% center;
   }
 }
+
+
+@media screen and (max-width:1024px) {
+    .i-left-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .i-desc-items{
+        font-size: 25px;
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

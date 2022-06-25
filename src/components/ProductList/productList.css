@@ -24,3 +24,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width:1024px) {
+    .pl{
+        padding: 100px 70px;
+    }
+    .pl-title{
+        font-size: 55px;
+    }
+    .pl-desc{
+        font-size: 22px;
+    }
+}

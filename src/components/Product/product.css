@@ -29,3 +29,10 @@
     transform: scaleY(1.5);
 }
 
+
+@media screen and (max-width:1024px) {
+    .p{
+        width: 40%;
+    }
+}
+
