@@ -117,3 +117,23 @@
 
 
 
+@media screen and (max-width:425px) {
+    .a-left{
+        display: none;
+    }
+    .a-title{
+        font-size: 30px;
+    }
+
+    .a-sub{
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    .a-desc{
+        font-size: 15px;
+    }
+
+}
+
+
+

@@ -13,7 +13,9 @@ const Intro = () => {
         <div className="i-left">
             <div className="i-left-wrapper">
                 <h2 className="i-intro">Hello, My name is</h2>
-                <h1 className="i-name">{introData.name}</h1>
+                <h1 className="i-name">
+                    {introData.name}
+                </h1>
                 <div className="i-title">
                     <div className="i-title-wrapper">
                         {introData.scroller.map(items=>(
@@ -23,7 +25,7 @@ const Intro = () => {
                 </div>
                 <div className="i-desc">
                     <div className="i-desc-items">
-                        <b>Langulages: </b> 
+                        <b>Languages: </b> 
                         {introData.languages.map(items=>(
                             <div className="animate-charcter" style={{ marginLeft: '.5rem'}}>
                                 {items}
